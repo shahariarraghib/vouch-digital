@@ -1,0 +1,30 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.rectangle img {
+  width: 644.22px;
+  height: 553.03px;
+}
+
+.rectangle {
+  width: 781px;
+  height: 506px;
+  margin-top: 141px;
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .rectangle img {
+    width: 300.22px;
+    height: 270.03px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .rectangle {
+    width: 300px;
+    height: 270px;
+  }
+}
